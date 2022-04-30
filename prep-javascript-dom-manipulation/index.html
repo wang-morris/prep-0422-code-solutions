@@ -25,16 +25,11 @@
     </p>
   </div>
   <script>
-    // parent element
-    var $container = document.querySelector('#container');
-    console.log($container);
+    var $secondParagraph = document.querySelector('.second-paragraph').textContent = 'I also really like to watch television and eating pancakes.';
+    console.log($secondParagraph);
 
-    // created element
-    var $heading = document.createElement('h1');
-    $heading.textContent = 'Hello World!';
-    console.log($heading);
-
-    $container.appendChild($heading);
+    var $thirdParagraph = document.querySelector('.third-paragraph').textContent = 'I hope one day to meet people that also like coding, television, and pancakes.';
+    console.log($thirdParagraph);
   </script>
 </body>
 
